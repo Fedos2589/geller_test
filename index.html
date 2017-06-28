@@ -11,7 +11,7 @@
 		<div class="dev-version">
 			<div class="dev-version__beta">BETA</div>
 			<div class="dev-version__about">Внимание! Данная версия сайта находится в разработке. <a href="#" class="dev-version__goToPrevius">Перейти на старую версию сайта</a></div>
-			<a href="#" class="dev-version__close"></a>
+			<a href="#" class="dev-version__close">Закрыть</a>
 		</div>
 		<div class="settings">
 			<a href="#" class="settings__item catalog">Каталог государственных сайтов РФ</a>
@@ -20,11 +20,12 @@
 				<a href="#" class="settings__item">English</a>
 				<a href="#" class="settings__item govService">Госуслуги</a>
 				<a href="#" class="settings__item message">Написать обращение</a>
+				<a href="#" class="settings__item magnifier"></a>
 			</div>
 		</div>
 	</header>
 	<header class="main-hdr">
-		<div class="container">
+		<div class="container desktop">
 			<div class="main-hdr__logo"></div>
 			<div class="main-hdr__nav">
 				<div class="main-hdr__nav__item">О Министерстве</div>
@@ -36,10 +37,14 @@
 				<div class="main-hdr__nav__item">...</div>
 			</div>
 		</div>
+		<div class="container mobile">
+			<a href="#" class="main-hdr__menu">Меню</a>
+		</div>
 	</header>
 	<main class="main">
 		<div class="container">
-			<h1 class="main-heading">Министерство труда и социальной защиты <span class="main-hdeading_small">Российской Федерации</span></h1>
+			<div class="mobile-logo"></div>
+			<h1 class="main-heading">Министерство труда<br> и социальной защиты <span class="main-hdeading_small">Российской Федерации</span></h1>
 			<div class="main-choice">
 				<a href="#" class="main-choice__item">Общественная приемная
 				</a>
@@ -54,19 +59,19 @@
                      Топилин представил три обсуждаемых варианта повышения МРОТ</h2>
 					<div class="articles__item__date">3 марта 2017 года, 14:30</div>
 				</article>
-				<article class="articles__item">
+				<article class="articles__item article2">
 					<div class="articles__item__img"></div>
 					<h2 class="articles__item__heading">Телефонный разговор 
                      с Премьер-министром Венгрии Виктором Орбаном </h2>
 					<div class="articles__item__date">3 марта 2017 года, 14:30</div>
 				</article>
-				<article class="articles__item">
+				<article class="articles__item article3">
 					<div class="articles__item__img"></div>
 					<h2 class="articles__item__heading">Руководители 
                      социально-трудовых ведомств России и Киргизской Республики обсудили вопросы сотрудничества между странами</h2>
 					<div class="articles__item__date">3 марта 2017 года, 14:30</div>
 				</article>
-				<article class="articles__item">
+				<article class="articles__item article4">
 					<div class="articles__item__img"></div>
 					<h2 class="articles__item__heading">Министр Максим Топилин провел заседание рабочей группы по социальным вопросам Республики Крым и г. Севастополя</h2>
 					<div class="articles__item__date">3 марта 2017 года, 14:30</div>
@@ -81,8 +86,8 @@
 						<a href="#" class="services-list__nav__item">Популярная услуга 1</a>
 						<a href="#" class="services-list__nav__item">Популярная услуга 2</a>
 						<a href="#" class="services-list__nav__item">Популярная услуга 3</a>
-						<a href="#" class="services-list__nav__item">Популярная услуга 4</a>
-						<a href="#" class="services-list__nav__item"></a>
+						<a href="#" class="services-list__nav__item desktop">Популярная услуга 4</a>
+						<a href="#" class="services-list__nav__item desktop"></a>
 					</div>
 				</div>
 				<div class="services-participate">
@@ -91,8 +96,8 @@
 						<a href="#" class="services-participate__nav__item">Открытые данные</a>
 						<a href="#" class="services-participate__nav__item">Общественные обсуждения</a>
 						<a href="#" class="services-participate__nav__item">Консультации с гражданами </a>
-						<a href="#" class="services-participate__nav__item">Участие граждан</a>
-						<a href="#" class="services-participate__nav__item">Петиции</a>
+						<a href="#" class="services-participate__nav__item desktop">Участие граждан</a>
+						<a href="#" class="services-participate__nav__item desktop">Петиции</a>
 						<a href="#" class="services-participate__nav__item">Написать обращение</a>
 					</div>
 				</div>
@@ -108,7 +113,8 @@
 				<div class="author__country">Российской Федерации</div>
 			</section>
 			<section class="ftr__settings">
-				<a href="#" class="ftr__settings__item">Версия для мобильных устройств</a>
+				<a href="#" class="ftr__settings__item desktop">Версия для мобильных устройств</a>
+				<a href="#" class="ftr__settings__item mobile">Десктопная версия</a>
 				<a href="#" class="ftr__settings__item">О сайте</a>
 				<a href="#" class="ftr__settings__item">Карта сайта</a>
 				<a href="#" class="ftr__settings__item">Контакты</a>
